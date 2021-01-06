@@ -7,6 +7,7 @@ def main():
     expenses.read_expenses('data/spending_data.csv')
 
     spending_categories = list()
+
     for expense in expenses.list:
         spending_categories.append(expense.category)
 
